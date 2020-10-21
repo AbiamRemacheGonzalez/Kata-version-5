@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
-        Integer [] data ={2,2,3,4,5,7,7,8,9,2,2,3,5,7};
+        String [] data = {"maria","pepe","pedro","maria","pepe","pepe","ana","pedro","maria","facundo"};
         Histogram meta_histogram = new Histogram(data);
         Map<Integer,Integer> histogram = meta_histogram.getHistogram();
         
